@@ -29,4 +29,10 @@ Unfortunately, "Romano JD" isn't the most unique identifier. Therefore, the foll
 
 [http://www.ncbi.nlm.nih.gov/pubmed/?term=Romano+JD](http://www.ncbi.nlm.nih.gov/pubmed/?term=Romano+JD)
 
-If an article is about particle physics or traditional (wet-lab) biochemistry, then it probably isn't me. I'm planning to build a query that will return all of my MEDLINE-indexed citations within PubMed, and I'll put a link on here once I get that working.
+If an article is about particle physics or traditional (wet-lab) biochemistry, then it probably isn't me. I've collected all of my PubMed citations in the following NCBI collection:
+
+[http://www.ncbi.nlm.nih.gov/sites/myncbi/1BAHWiwzjzSkp/collections/49983671/public/](http://www.ncbi.nlm.nih.gov/sites/myncbi/1BAHWiwzjzSkp/collections/49983671/public/)
+
+You can also find this information in a (not necessarily up-to-date) MEDLINE text file:
+
+[jdromano_medline.txt]({{site.url}}/resources/jdromano_medline.txt)
