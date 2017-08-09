@@ -7,6 +7,8 @@ weight: 2
 
 I keep my CV updated regularly. You can find it here: [CV]({{site.url}}/pdfs/cv_jdromano.pdf)
 
+And here is a BibTeX database of my publications: [jdr.bib]({{site.url}}/resources/jdr.bib)
+
 In general, I'm interested in the following subjects:
 
 * The discovery of therapeutic compounds found in nature (particularly proteins isolated from animal venoms) by integrating informatics and biodiversity knowledge.
