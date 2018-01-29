@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>jdr.bio - Website of Joseph D. Romano</title>
+        <title>jdr.bio - Curriculum Vitae</title>
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE-edge" />
@@ -31,8 +31,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
                             Home
                         </a>
                     </li>
@@ -43,14 +43,14 @@
                         </a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="./cv.html">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
                             CV
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="https://scholar.google.com/citations?user=Lr-3Bj4AAAAJ&hl=en" target="_blank">
+                        <a class="nav-link" target="_blank" href="https://scholar.google.com/citations?user=Lr-3Bj4AAAAJ&hl=en">
                             Publications
                         </a>
                     </li>
@@ -65,39 +65,11 @@
         </nav>
 
         <!-- CONTENT -->
-        <div class="container body-fill" id="homepage-content">
-            <h2>Joseph D. Romano</h2>
-            <h3>Biomedical data scientist and computational toxinologist</h3>
-            <hr/>
-            <div id="homepage-content-justify">
-                <p>
-                    I'm a PhD candidate at Columbia University, in <a href="http://tatonettilab.org">the lab of Nicholas Tatonetti</a>. I specialize in translational bioinformatics and computational toxinology.
-                </p>
-
-                <p>
-                    For more information about my research, publications, or CV/r&eacute;sum&eacute;, please use the links at the top of the page.
-                </p>
-
-                <p>
-                    Me elsewhere on the internet:
-                    <ul>
-                        <li><a href="https://systemsbiology.columbia.edu/people/joe-romano">Columbia Systems Biology</a></li>
-                        <li><a href="https://www.dbmi.columbia.edu/roles/phd/">Columbia Department of Biomedical Informatics</a></li>
-                        <li><a href="http://tatonettilab.org/people.html">Tatonetti Lab</a></li>
-                    </ul>
-                </p>
-
-                <span style="display:block; height: 4em;"></span>
-
-                <div id="definition-box">
-                    <p>
-                        <b>Translational Bioinformatics</b> is the field of study that uses computational methodologies to link molecular entities (proteins, genes, drugs) to clinical entities (humans, body systems, diagnoses).
-                    </p>
-                    <p>
-                        <b>Computational toxinology</b> (not 'toxicology') is the use of computers to discover new characteristics from venoms and the molecules that comprise venoms, especially for the purpose of discovering new drugs.
-                    </p>
-                </div>
-            </div>
+        <div id="cv-pdf-container body-fill" style="height:100%;">
+            <object data="./assets/cv_jdromano.pdf" type="application/pdf" width="100%" height="100%">
+                <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./assets/cv_jdromano.pdf">Download PDF</a>.</p>
+            </object>
         </div>
+
     </body>
 </html>
